@@ -8,6 +8,6 @@ console.log(name);
 let age = await userInput.question ('Hoe oud ben je ?');
 
 let favoriteGame = await userInput.question ('Wat is jouw favoriete game ?');
-console.log( "Hallo " + " " + name + " "+ age + " " + favoriteGame+ ".")
+console.log( "Hallo " + name + ". Je bent " + age + " jaar oud en jouw favoriete game is " + favoriteGame+ ".")
 
 process.exit();
